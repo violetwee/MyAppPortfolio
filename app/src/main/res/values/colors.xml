@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Main -->
+    <color name="MainBgColor">#ffdeefed</color>
+
+    <!-- Title -->
+    <color name="titleColor">#ff4e5e92</color>
+
+    <!-- Project Buttons -->
+    <color name="buttonBgColor">#fff08c35</color>
+    
+    <!-- Capstone Button -->
+    <color name="capstoneBgColor">#ffcf4131</color>
+    <color name="capstoneTextColor">#ffffffff</color>
+</resources>

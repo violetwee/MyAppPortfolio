@@ -1,0 +1,97 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/main"
+    android:background="@color/MainBgColor">
+
+    <TextView android:text="@string/my_title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="@dimen/titleSizeBig"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/titleColor" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/spotify"
+        android:layout_marginTop="@dimen/firstButtonMargin"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/buttonBgColor" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores"
+        android:id="@+id/scores"
+        android:layout_below="@+id/spotify"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/buttonBgColor"
+        android:layout_marginTop="@dimen/buttonMarginTop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library"
+        android:id="@+id/library"
+        android:layout_below="@+id/scores"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/buttonBgColor"
+        android:layout_marginTop="@dimen/buttonMarginTop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bigger"
+        android:id="@+id/bigger"
+        android:layout_below="@+id/library"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/buttonBgColor"
+        android:layout_marginTop="@dimen/buttonMarginTop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/reader"
+        android:layout_below="@+id/bigger"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/buttonBgColor"
+        android:layout_marginTop="@dimen/buttonMarginTop" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capstone"
+        android:layout_below="@+id/reader"
+        android:layout_centerHorizontal="true"
+        android:width="@dimen/buttonWidth"
+        android:onClick="launchApp"
+        android:background="@color/capstoneBgColor"
+        android:textColor="@color/capstoneTextColor"
+        android:layout_marginTop="@dimen/buttonMarginTop" />
+    </RelativeLayout>
+</ScrollView>
